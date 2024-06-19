@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />     
+<link rel="stylesheet" href="style.css">
+<title>Jason Williams</title>
+</head>
+<body>
+    <div class="navbar px-5" id="nav">
+        <a class="link-offset-3-hover" href="index.html">Jason Williams</a>
+        <a href="about.html">About</a>
+    </div>
+    <main class="d-flex w-100 px-3 pt-5" id="aboutBox">
+        <div class="w-100 rounded-pill d-flex mb-5" id="titlePill">
+            <img src="templates/Jason_Pic.jpg" alt="selfie" class="mx-auto my-auto rounded-circle" id="selfie">
+            <h2 class="my-auto">Aspiring full stack web developer looking to join a spectacular team and create dynamic, user-friendly products.</h2>
+        </div>
+        <h3 style="margin-left: auto; margin-right: auto;">Current Talents</h3>
+        <div class="container text-center mb-5" id="skillsBox">
+            <div class="row">
+                <div class="col">Python<img src="templates/python-original.svg" style="width: 100px; height: 100px; margin-left: 5px;"/></div>
+                <div class="col">Flask<img src="templates/flask-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">SQLAlchemy<img src="templates/sqlalchemy-original.svg" style="width: 100px; height: 100px; margin-left: 5px; background-color: rgb(240, 240, 85);"/></div>
+                <div class="col">PostgresQL<img src="templates/postgresql-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+            </div>
+            <div class="row">
+                <div class="col">JavaScript<img src="templates/javascript-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">HTML/CSS<img src="templates/html5-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">Tailwind CSS<img src="templates/tailwindcss-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">Bootstrap<img src="templates/bootstrap-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+            </div>
+            <div class="row">
+                <div class="col">React<img src="templates/react-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">MaterialUI<img src="templates/materialui-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">Typescript<img src="templates/typescript-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+                <div class="col">CSS<img src="templates/css3-original.svg" style="width: 100px; height: 100px; margin-left: 5px"/></div>
+            </div>
+        </div>
+        <article id="bio">
+            <p>After working in an extensive career in Customer Service in the financial tech industry, I began to seek a <span style="color: #ace6c0;">more challenging direction for my career</span>.</p>
+
+            <p>I love the process of building digital worlds of logic, and I knew <span style="color: #ace6c0;">I could use my extensive analytical and problem-solving skills built over my career</span> to help companies build bigger and better user experiences.</p>
+
+            <p>Through various tutorials online, <span style="color: #ace6c0;">I taught myself Python</span> and my first "big" project was a rudimentary version of Tetris, as well as a small Twitter Bot that posted random trivia to your account.</p>
+
+            <p><span style="color: #ace6c0;">I then taught myself HTML/CSS/JavaScript</span>, and afterwards attempted to make a small clone of Instapaper, which I will return to. While working at a new customer service position in legal tech, <span style="color: #ace6c0;">I attended Coding Temple in order to gain more direction and outside perspectives on my code.</span></p>
+
+            <p>In between coding, I cook, often using whatever ingredients that are in the home to make a new custom meal. I'm also returning to my previous love of reading novels, starting with "The Sympathizer". I also would like to continue building fun hobby APIs and small games.</p>
+
+            <p><span style="color: #ace6c0;">I'm confident that I will be an excellent addition to your team and I look forward to being able to build great apps with you.</span></p>
+        </article>
+    </main>
+    <footer id="formsFooter">
+        <div class="d-flex" id="formMessage">
+            <h1 class="messages">Reach Out</h1>
+            <p class="messages">Please feel free to contact me for discussing new opportunities.</p>
+            <a href="index.html" class="my-auto">You can also view some projects I've worked on.</a>
+            <div id="mediaIcons" class="messages d-flex">
+                <a href="www.linkedin.com/in/jason-w-6a450b17"><img src="templates/linkedin-original.svg" style="width: 50px; height: 50px; margin-left: 5px"/></a>
+                <a href="https://github.com/AFireInside777"><img src="templates/github-original.svg" style="width: 50px; height: 50px; margin-left: 5px"/></a>
+            </div>
+        </div>
+        <form id="forms">
+            <div class="form-group">
+                <label for="nameInput">Your Name</label>
+                <input type="name" class="form-control" id="nameInput" placeholder="Place Name here.">
+            </div>
+            <div class="form-group">
+                <label for="emailInput">Email Address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Place Email here.">
+            </div>
+            <div class="form-group">
+                <label for="formTextarea">What's Up?</label>
+                <textarea class="form-control" id="formTextarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
