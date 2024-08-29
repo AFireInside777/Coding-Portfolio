@@ -30,7 +30,7 @@ body{
     height: max-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 175px;
 }
 
@@ -101,6 +101,8 @@ body{
     flex-direction: column;
     width: 35%;
     height: 290px;
+    text-align: center;
+    align-items: center;
 }
 
 p, h1, h2, h3, a, label, #skillsBox{
